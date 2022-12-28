@@ -25,7 +25,7 @@ function showCases(cases){
         <td><div class="${getClassByRate(total_case)}"id="total_case">${total_case}</div></td>
         <td><div class="${getClassByRate(new_death)}"id="new_death">${new_death}</div></td>
         <td><div class="${getClassByRate(total_death)}"id="total_death">${total_death}</div></td>
-        <td><div class=""id="txn_date">${txn_date}</div></td>
+        <td><div class=""id="update_date">${update_date}</div></td>
         `
         tbody.appendChild(trEl)
     });
