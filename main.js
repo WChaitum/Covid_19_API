@@ -15,8 +15,8 @@ function showCases(cases){
     tr.innerHTML = ''
 
     cases.forEach(CovidCase => {
-        const{province,new_case,total_case,new_death,total_death,txn_date}=CovidCase
-        // console.log(province,new_case,total_case,new_death,total_death,txn_date);
+        const{province,new_case,total_case,new_death,total_death,update_date}=CovidCase
+        // console.log(province,new_case,total_case,new_death,total_death,update_date);
         
         const trEl = document.createElement('tr')
         trEl.innerHTML = `
